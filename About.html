@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anon</title>
+    <link rel="stylesheet" href="stylep.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+            <img src="assets/images/logo/logo.svg" alt="Anon's" width="125px"
+            /></a>
+          </div>
+          <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hot.html">Hot offers</a></li>
+            <li><a href="best.html">Best sellers</a></li>
+            <li><a href="about.html">About us</a></li>
+              <!-- TODo: 22:20 -->
+            </ul>
+          </nav>
+
+          <img
+            src="images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              About us
+            </h1>
+        
+            &nbsp;
+          </div>
+          <div class="col-2">
+            <img src="images/3sv.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+                &nbsp;
+    <!----- Featurd Categories--------->
+    <div style="margin-left: 5%; margin-right: 5%;" >
+    
+    <p>As a company deeply rooted in both China and France, our journey began with a vision to revolutionize the smartphone industry by providing unparalleled access to cutting-edge technology at unbeatable prices. With offices strategically located in these two global hubs of innovation, we have been able to stay at the forefront of the ever-evolving mobile landscape, catering to customers worldwide with a diverse range of devices to suit every need and preference.
+
+However, as we look back on our journey, we find ourselves facing unexpected challenges that have led us to make the difficult decision to close our website. Despite our best efforts and unwavering dedication, external circumstances beyond our control have necessitated this action. Yet, in the face of adversity, we remain committed to our mission of delivering exceptional value to our customers.
+
+In light of our impending closure, we have made the bold decision to lower prices across our entire inventory and offer free shipping on all orders. This is our way of expressing gratitude to the countless loyal customers who have supported us over the years. We understand the importance of affordability and accessibility, especially during uncertain times, and we are determined to make our products more accessible than ever before.
+
+While the decision to close our website is undoubtedly bittersweet, we take solace in the knowledge that our legacy will live on through the countless individuals whose lives we have touched with our products and services. From the tech enthusiasts who eagerly awaited each new release to the everyday consumers who relied on us for reliable and affordable devices, we are eternally grateful for your support and patronage.
+
+As we embark on this new chapter, we invite you to take advantage of our final offerings – lower prices, free shipping, and the same commitment to excellence that has defined us from the very beginning. Though our website may soon be a memory, the impact we have made on the smartphone industry and the lives of our customers will endure for years to come. Thank you for being a part of our journey.</p>
+</div>
+            &nbsp;
+    <!----- Featurd Products--------->
+
+<!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+  
+          </div>
+          <div class="footer-col-2">
+            <img src="./assets/images/logo/logo.svg" alt="" />
+            <p>
+We want to take a moment to express our heartfelt gratitude for your unwavering support over the years. Your loyalty has been the cornerstone of our success, and we are truly thankful for each and every one of you.As we embark on a new chapter, we want to extend our sincerest thanks for being a part of our journey. Your trust and patronage have meant the world to us
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Go to</h3>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hot.html">Hot offers</a></li>
+            <li><a href="best.html">Best sellers</a></li>
+            <li><a href="about">About us</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2019-2024, Anon, Inc </p>
+      </div>
+    </div>
+    <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
